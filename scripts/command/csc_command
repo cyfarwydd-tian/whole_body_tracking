@@ -1,3 +1,7 @@
 python scripts/rsl_rl/train.py --task=Tracking-Flat-G1-v0 \
 --registry_name {your-organization}-org/wandb-registry-motions/{motion_name} \
 --headless --logger wandb --log_project_name {project_name} --run_name {run_name}
+
+python scripts/rsl_rl/play.py --task=Tracking-Flat-G1-v0 --num_envs=2 --wandb_path=cyfarwydd-new-york-university/test1/h29iv50z
+#value the train result in isaac_lab
+
